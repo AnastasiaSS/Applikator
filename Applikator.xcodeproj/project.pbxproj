@@ -10,8 +10,8 @@
 		BC304B85220CE4550068B999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC304B84220CE4550068B999 /* AppDelegate.swift */; };
 		BC304B87220CE4550068B999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC304B86220CE4550068B999 /* ViewController.swift */; };
 		BC304B8A220CE4550068B999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC304B88220CE4550068B999 /* Main.storyboard */; };
-		BC304B8C220CE4570068B999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC304B8B220CE4570068B999 /* Assets.xcassets */; };
-		BC304B8F220CE4570068B999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC304B8D220CE4570068B999 /* LaunchScreen.storyboard */; };
+		BC304B8F220CE4570068B999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC304B8D220CE4570068B999 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (0, ); }; };
+		BC48CBCF2210E0B500655067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC48CBCE2210E0B500655067 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		BC304B84220CE4550068B999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC304B86220CE4550068B999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC304B89220CE4550068B999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC304B8B220CE4570068B999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC304B8E220CE4570068B999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC304B90220CE4570068B999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC48CBCE2210E0B500655067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 				BC304B84220CE4550068B999 /* AppDelegate.swift */,
 				BC304B86220CE4550068B999 /* ViewController.swift */,
 				BC304B88220CE4550068B999 /* Main.storyboard */,
-				BC304B8B220CE4570068B999 /* Assets.xcassets */,
 				BC304B8D220CE4570068B999 /* LaunchScreen.storyboard */,
 				BC304B90220CE4570068B999 /* Info.plist */,
+				BC48CBCE2210E0B500655067 /* Assets.xcassets */,
 			);
 			path = Applikator;
 			sourceTree = "<group>";
@@ -90,6 +90,10 @@
 		BC304B79220CE4550068B999 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+					tennant,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Анастасия Соколан";
@@ -123,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC304B8F220CE4570068B999 /* LaunchScreen.storyboard in Resources */,
-				BC304B8C220CE4570068B999 /* Assets.xcassets in Resources */,
+				BC48CBCF2210E0B500655067 /* Assets.xcassets in Resources */,
 				BC304B8A220CE4550068B999 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
